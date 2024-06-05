@@ -1,0 +1,36 @@
+/* Define a fonte padrão para o corpo do documento */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #020202; /* Define a cor de fundo para o corpo do documento */
+  margin: 0; /* Remove margens do corpo do documento */
+  padding: 0; /* Remove preenchimento do corpo do documento */
+}
+
+/* Estiliza o contêiner de entrada */
+.entrada {
+  max-width: 600px; /* Define a largura máxima do contêiner */
+  margin: 50px auto; /* Centraliza o contêiner horizontalmente na página e adiciona margem superior e inferior */
+  padding: 20px; /* Adiciona preenchimento interno ao contêiner */
+  background-color: #fff; /* Define a cor de fundo do contêiner */
+  border-radius: 8px; /* Adiciona bordas arredondadas ao contêiner */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao contêiner */
+  display: flex; /* Cria um layout de linha para os elementos filhos */
+  align-items: center; /* Centraliza verticalmente os elementos filhos */
+}
+
+/* Estiliza o contêiner de saída */
+.saida {
+  max-width: 600px; /* Define a largura máxima do contêiner */
+  margin: 20px auto; /* Centraliza o contêiner horizontalmente na página e adiciona margem superior e inferior */
+  padding: 20px; /* Adiciona preenchimento interno ao contêiner */
+  background-color: #fff; /* Define a cor de fundo do contêiner */
+  border-radius: 8px; /* Adiciona bordas arredondadas ao contêiner */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao contêiner */
+}
+
+/* Estiliza o parágrafo dentro do contêiner de saída */
+.saida p {
+  padding: 10px; /* Adiciona preenchimento interno ao parágrafo */
+  background-color: #f0f0f0; /* Define a cor de fundo do parágrafo */
+  border-radius: 4px; /* Adiciona bordas arredondadas ao parágrafo */
+}
